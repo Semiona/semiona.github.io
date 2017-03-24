@@ -1,14 +1,20 @@
 body {
 	margin:0;
 	padding:0;
-	background-size: 1280px 900px;
+	
+}
+
+header {
+	background-size: cover;
+	background-image:url("images/forest.jpeg");
+	background-repeat: no-repeat;
 }
 
 #logo {
     display: block;
     margin-left: 300px;
     margin-right: auto;
-    margin-top: 180px;
+    padding-top: 180px;
 }	
 
 #nav {
@@ -57,14 +63,16 @@ li+li {
 }
 
 #otli{
-	color: #ffffff;
+	color: #000000;
 	
 
 }
 
 .about{
-	background-color: #d6d6c2;
+	background-color: #ffffff;
 	color:#1a1a00;
+	margin-top: 10px;
+	padding: 10px;
 
 }
 
@@ -79,12 +87,20 @@ li+li {
 }
 
 .travel {
+
 }	
+.travel img{
+	width: 100%;
+}
 
 .gallery {
 	background-color: #d6d6c2;
 	color:#1a1a00;
 	color:#1a1a00;
+}
+
+.gallery img {
+	width: 400px;
 }
 
 a:link {
