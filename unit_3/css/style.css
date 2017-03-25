@@ -15,6 +15,7 @@ header {
     margin-left: 300px;
     margin-right: auto;
     padding-top: 180px;
+
 }	
 
 #nav {
@@ -59,56 +60,69 @@ li+li {
 	font-weight: normal;
 	display:inline;
 	text-transform: lowercase;
-
 }
 
 #otli{
 	color: #000000;
 	
-
 }
 
-.about{
+.language{
 	background-color: #ffffff;
 	color:#1a1a00;
+	margin-top: 0px;
+	padding: 0px;
+	
+}
+
+.language img {
+	width: 40%;
+}
+
+.food {
+	margin-top: 0px;
+	padding: 0px;
 	margin-top: 10px;
-	padding: 10px;
+}
+.food img {
+	width: 40%;
 
 }
 
-.culture {
-	background-color: #d6d6c2;
-	color:#1a1a00;
-	
-}
-
-.language {
-	
+.music {
+	margin-top: 0px;
+	padding: 0px;
+}	
+.music img{
+	width: 40%;
 }
 
 .travel {
-
+	margin-top: 0px;
+	padding: 0px;
 }	
 .travel img{
-	width: 100%;
+	width: 40%;
 }
 
 .gallery {
-	background-color: #d6d6c2;
+	background-color: #ffffff;
 	color:#1a1a00;
-	color:#1a1a00;
+	margin-top: 0px;
+	padding: 0px;
 }
 
 .gallery img {
-	width: 50%;
+	width: 40%;
 }
 
 a:link {
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #1a1a00;
+	color: #800000;
 	text-align: center;
 	font-weight: bold;
+	font-style: normal;
 }
 
 #contact {
