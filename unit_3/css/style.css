@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro');
+
 body {
 	margin:0;
 	padding:0;
@@ -51,10 +55,11 @@ li+li {
 }
 
 #nav ul li a {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: arial, sans-serif;
+	letter-spacing: 0.3em;
 	text-decoration:none;
 	color:#ffffff;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
 	display:inline;
@@ -63,17 +68,30 @@ li+li {
 
 #otli{
 	color: #000000;
-	line-height: 2em;
+	line-height: 1.5em;
+	font-family: 'Kurale', serif;
+	font-size: 18px;	
+}
 
+.five {
+	text-decoration: none;
+	position: relative;
+	padding: 2em;
 	
+	
+}
+
+.five img {
+	width: 20px;
+	height: 250px;
 }
 
 .language{
 	background-color: #ffffff;
 	color:#1a1a00;
-	margin-top: 6em;
-	margin-right: 12em;
-	margin-left: 12em;
+	margin-top: 20em;
+	margin-right: 10em;
+	margin-left: 10em;
 }
 
 .language img-circle {
@@ -94,12 +112,11 @@ li+li {
 	
 }
 .img-food {
-	height: 200px;
+	height: 190px;
 	width: 190px;
 	border-radius: 60%;
 	float: right;
 	
-
 }
 
 .music {
@@ -112,9 +129,11 @@ li+li {
 	margin-left: 10em;
 }	
 .music img {
-	height: 200px;
-	width: 250px;
-	float: left;
+	border-radius: 50%;
+	margin: 0 auto;
+	height: 140px;
+	width: 160px;
+
 }
 
 .travel {
@@ -126,9 +145,13 @@ li+li {
 	margin-right: 10em;
 	margin-left: 10em;
 }	
-.travel img{
+.travel img { 
+
+	border-radius: 50%;
 	margin: 0 auto;
-	width: 800px;
+	height: 320px;
+	width: 350px;
+
 }
 
 .gallery {
@@ -147,18 +170,27 @@ li+li {
 }
 
 a:link {
+	font-family: 'Norican', cursive;
+	font-size: 20px;
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #800000;
 	text-align: center;
 	font-weight: bold;
 	font-style: normal;
 }
 
-#contact {
+.footnote {
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #1a1a00;
-	float: center;
+	float: bottom;
 	font-weight: bold;
+	margin-right: 10em;
+	margin-left: 10em;
+}
+h1 {
+	font-family:'Abril Fatface', serif;
+	letter-spacing: 0.1em;
+	color: #334d4d;
+
 }
