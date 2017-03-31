@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Satisfy|Trocchi');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Satisfy|Trocchi');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Righteous|Satisfy|Trocchi');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Open+Sans|Righteous|Satisfy|Trocchi');
+
+body {
+	margin:0;
+	padding:0;
+	
+}
+
+header {
+	background-size: cover;
+	background-image:url("../images/forest_main.jpeg");
+	max-width: 100%;
+	height: 900px;
+}
+
+#logo {
+    display: block;
+    margin-left: 440px;
+    margin-right: auto;
+    padding-top: 320px;
+    margin-bottom: 300px;
+
+}	
+
+#nav {
+	background-color: #a3a375;
+	position: fixed;
+	width:100%;
+	top:0px;
+}
+
+#nav-wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	position:relative;	
+}
+
+#nav ul {
+	background-color: #a3a375;
+	height:20px;
+	width:100%;
+	list-style: none;
+	text-align: center;
+}
+
+#nav ul li{
+	padding-right: 42px;
+	padding-left: 42px;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+li+li { 
+	border-left: 1px solid #334d00; 
+	border-color: #c0c0c0;
+}
+
+#nav ul li a {
+	font-family: 'Righteous', cursive;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration:none;
+	color:#ffffff;
+	font-size: 16px;
+	text-align: center;
+	display:inline;
+	text-transform: lowercase;
+}
+
+#main{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	color: #000000;
+	line-height: 2em;
+	margin-right: 12em;
+	margin-left: 12em;	
+
+}
+
+#main a {
+	font-family: 'Open sans', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	color: #1a1a00;
+	text-transform: uppercase;
+
+}
+
+.button {
+	text-decoration: none;
+	background-color: #bfbfbf;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+
+}
+
+.button:hover {
+	background-color: #a3a375;
+
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	font-weight: 100;
+	color: #262626;
+}
+
+
+.language{
+	background-color: #ffffff;
+	color:#1a1a00;
+	margin-top: 6em;
+}
+
+.food {
+	background-color: #ffffff;
+	margin-top: 2em;
+	padding: 0px;
+	margin-top: 2em;
+	float: left;
+	
+}
+
+.music {
+	background-color: #ffffff;
+	margin-top: 2em;
+	padding: 0px;
+	margin-top: 2em;
+	float: left;
+	
+}	
+
+.travel {
+	background-color: #ffffff;
+	margin-top: 2em;
+	padding: 0px;
+	margin-top: 2em;
+	float: left;
+}	
+
+.gallery {
+	background-color: #ffffff;
+	margin-top: 2em;
+	padding: 0px;
+	margin-top: 2em;
+	float: left;
+	
+}
+
+.gallery img {
+	float: left; 
+	width: 30%; 
+	margin-right: 1%; 
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+.image_container {
+	float:left;
+}
+
+
+	
