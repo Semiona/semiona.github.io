@@ -118,7 +118,6 @@ h1 {
 	background-color: #ffffff;
 	color:#1a1a00;
 	margin-top: 6em;
-	background-color: #E89C6C;
 }
 
 .food {
@@ -131,8 +130,8 @@ h1 {
 }
 
 .music {
-	background-color: #E89C6C;
-	margin-top: 10em;
+	background-color: #ffffff;
+	margin-top: 2em;
 	padding: 0px;
 	margin-top: 2em;
 	float: left;
@@ -166,13 +165,4 @@ h1 {
 
 .image_container {
 	float:left;
-}
-
-#footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #a3a375;
-  text-align: right;
 }
