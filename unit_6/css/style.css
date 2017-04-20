@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Open+Sans|Righteous|Satisfy|Trocchi');
 
 body {
-	background-color: #FFC675;
+	background-color: 000000;
 	margin:0;
 	padding:0;
 	
@@ -13,7 +13,7 @@ body {
 
 header {
 	background-size: cover;
-	background-color: #FFED74;
+	background-color: #EDCDC2;
 	max-width: 100%;
 	height: 900px;
 	border-style: solid;
@@ -36,14 +36,14 @@ header {
 }
 
 #nav-wrapper {
-	width: 1200px;
+	width: 1300px;
 	margin: 0 auto;
 	position:relative;	
 }
 
 #nav ul {
-	background-color: #1c8346;
-	height:20px;
+	background-color: #DFCFBE;
+	height:40px;
 	width:100%;
 	list-style: none;
 	text-align: center;
@@ -52,13 +52,14 @@ header {
 #nav ul li{
 	padding-right: 42px;
 	padding-left: 42px;
-	background-repeat:no-repeat;
-	display:inline-block;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-top: 10px;
 }
 
 li+li { 
-	border-left: 1px solid #334d00; 
-	border-color: #c0c0c0;
+	border-left: 1px solid #DFCFBE; 
+	border-color: #DFCFBE;
 }
 
 #nav ul li a {
@@ -66,22 +67,20 @@ li+li {
 	font-weight: 100;
 	letter-spacing: 2px;
 	text-decoration:none;
-	color:#ffffff;
+	color: #313438;
 	font-size: 16px;
 	text-align: center;
 	display:inline;
 	text-transform: lowercase;
 }
 
-#main{
-	background-color: #FFC675;
+#main {
+	background-color: #343fd3;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.2px;
-	color: #000000;
 	line-height: 2em;
-	margin-right: 8em;
-	margin-left: 8em;	
+	padding: 5em;
 
 }
 
@@ -96,30 +95,32 @@ li+li {
 }
 
 #two_column {
-    background-color: #FFB7CF;
-    border: 4px purple solid;
-    padding: 20px;
+    background-color: #ffffff;
+    border: 0.5em purple solid;
+    padding: 2em;
+    height: 19em;
 }
 
 
 #left {
     background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
+    border: 2px black solid;
+    border border-radius: 8px;
+    padding: 2em 1.5em 4em 1em;
     float: left;
     width: 45%;
 }
 
 #right {
     background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
+    border: 2px black solid;
+    padding: 2em 1.5em 5em 1em;
     float: right;   
     width: 45%;
 }
 
 
-.clearfix:after {
+.clearfix: after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -132,9 +133,11 @@ li+li {
 	text-decoration: none;
 	background-color: #bfbfbf;
     border: 0;
+    margin: 2em 0.5em;
     padding: 8px 10px;
     border-radius: 8px;
     font-size: 12px;
+    position: absolute;
 
 }
 
@@ -153,8 +156,9 @@ h1 {
 	border-style: solid;
 	background-color: #E89C6C;
 	margin-top: 2em;
-	padding: 12px;
-	margin-top: 0em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 3em 5em 5em 3em;
 	float: left;
 	
 }	
@@ -163,39 +167,45 @@ h1 {
 	border-style: solid;
 	background-color: #E89C6C;
 	margin-top: 2em;
-	padding: 25px;
-	margin-top: 0em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 3em 5em 5em 3em;
 	float: left;
-}	
+
+}
 
 .gallery {
 	border-style: solid;
 	background-color: #E89C6C;
-	margin-top: 0em;
-	padding: 12px;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 3em 5em 10em 3em;
 	float: left;
 	
 }
 
 .gallery img {
 	float: left; 
-	width: 30%; 
+	width: 45%; 
 	margin-right: 1%; 
 	margin-bottom: 0.5em;
 	text-align: center;
+	display: inline-block;
 }
 
 .image_container {
 	float:left;
 }
 
-
 #footer {
-    background-color: #FF957E;
-    text-align: center;
-    width: 100%;
-    position: bottom;
-    left: 0;
-    bottom: 0;
+	background-color: yellow;
+	position: bottom;
+	height: 10em;
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+
 }
+
 
