@@ -108,7 +108,7 @@ li+li {
 
 }
 
-h1 {
+#main h1 {
 	font-family: 'Righteous', cursive;
 	font-weight: 100;
 	color: #262626;
@@ -157,25 +157,36 @@ h1 {
 
 #foot {
 	background-color: #a3a375;
-	position: fixed bottom;
 	height: 80px;
 	width: 100%;
 	top: 0px;
 	position: absolute;
-	display: block;
+
+
 }
 	
-#contact ul li {
-	font-family: 'Righteous', cursive;
-	font-weight:100;
+.contact ul li {
+	font-weight:50;
 	letter-spacing: 2px;
 	font-size: 16px;
-	text-align: center;
+	float: left;
+	padding-left: 60px;
+	padding-right: 60px;
 	text-transform: lowercase;
 	background-repeat: no-repeat;
 }
 
-#contact ul li a {
+.contact ul li a {
 	text-decoration: none;
 	color: #ffffff;
+	font-family: 'Righteous', cursive;
+}
+
+.social h1	{
+	font size: 10px;
+}
+
+.social {
+	float: right;
+	display: inline-block;
 }
