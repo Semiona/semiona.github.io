@@ -42,10 +42,11 @@ header {
 }
 
 #nav-wrapper img {
-	width: 8%;
-	height: 8%;
+	width: 6%;
+	height: 6%;
 	float: left;
 	margin-left: 20px;
+	margin-top: 5px;
 }
 
 #nav ul {
@@ -57,25 +58,26 @@ header {
 }
 
 #nav ul li{
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 2px;
+	padding-left: 2px;
 	background-repeat: no-repeat;
 	display: inline-block;
-	margin-top: 22px;
+	margin-top: 14px;
 	margin-right: 10px;
 }
 
 
 #nav ul li a {
-	font-family: 'Righteous', cursive;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	letter-spacing: 3px;
 	text-decoration:none;
-	color: #C6D5EB;
+	color: #ffffff;
 	font-size: 14px;
 	text-align: center;
 	display:inline;
 	text-transform: lowercase;
+	margin-right: 4em;
 }
 
 #main {
@@ -83,7 +85,7 @@ header {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.2px;
-	line-height: 2em;
+	line-height: 5em;
 	padding: 5em;
 
 }
@@ -98,40 +100,6 @@ header {
 
 }
 
-#two_column {
-    background-color: #ffffff;
-    border: 0.5em purple solid;
-    padding: 2em;
-    height: 19em;
-}
-
-
-#left {
-    background-color: #C9CCCF;
-    border: 2px black solid;
-    border border-radius: 8px;
-    padding: 2em 1.5em 4em 1em;
-    float: left;
-    width: 45%;
-}
-
-#right {
-    background-color: #C9CCCF;
-    border: 2px black solid;
-    padding: 2em 1.5em 5em 1em;
-    float: right;   
-    width: 45%;
-}
-
-
-.clearfix: after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
 
 .button {
 	text-decoration: none;
@@ -146,7 +114,7 @@ header {
 }
 
 .button:hover {
-	background-color: #a3a375;
+	background-color: #e5b209;
 
 }
 
@@ -154,62 +122,88 @@ h1 {
 	font-family: 'Righteous', cursive;
 	font-weight: 100;
 	color: #262626;
+	font-size: 22px;
 }
 
-.music {
+.language {
 	border-style: solid;
-	background-color: #C9CCCF;
+	background-color: #D8E4F1;
 	margin-top: 2em;
 	margin-left: 2em;
 	margin-right: 2em;
 	padding: 3em 5em 5em 3em;
 	float: left;
+	line-height: 1.5em;
+	font-size: 20px;
+
+}
+
+.food {
+	border-style: solid;
+	background-color: #D8E4F1;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 3em 5em 5em 3em;
+	float: left;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+.music {
+	border-style: solid;
+	background-color: #D8E4F1;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 3em 5em 5em 3em;
+	float: left;
+	line-height: 1.5em;
+	font-size: 20px;
 	
 }	
 
 .travel {
 	border-style: solid;
-	background-color: #C9CCCF;
+	background-color: #D8E4F1;
 	margin-top: 2em;
 	margin-left: 2em;
 	margin-right: 2em;
 	padding: 3em 5em 5em 3em;
 	float: left;
+	line-height: 1.5em;
+	font-size: 20px;
 
 }
 
-.gallery {
+.shop {
 	border-style: solid;
-	background-color: #C9CCCF;
+	background-color: #D8E4F1;
 	margin-top: 2em;
 	margin-left: 2em;
 	margin-right: 2em;
 	padding: 3em 5em 5em 3em;
 	float: left;
+	line-height: 1.5em;
+	font-size: 20px;
 	
 }
 
-.gallery img {
-	float: left; 
-	width: 45%; 
-	margin-right: 1%; 
-	margin-bottom: 0.5em;
-	text-align: center;
-	display: inline-block;
-}
-
-.image_container {
-	float:left;
-}
-
-#footer {
+#footer ul{
 	background-color: #617B97;
 	position: bottom;
 	height: 10em;
 	display: inline-block;
 	width: 100%;
 	font-size: 20px;
+	text-decoration: none;
+	
 
 }
 
-
+#logo {
+	position: center;
+	width: 6%;
+	height: 6%;
+	
+}
