@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Satisfy|Trocchi');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Satisfy|Trocchi');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Righteous|Satisfy|Trocchi');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Open+Sans|Righteous|Satisfy|Trocchi');
 
+
 body {
-	background-color: 000000;
 	margin:0;
 	padding:0;
 	
@@ -13,10 +12,9 @@ body {
 
 header {
 	background-size: cover;
-	background-color: #D8E4F1;
+	background-image:url("../images/forest.jpeg");
 	max-width: 100%;
 	height: 900px;
-	border-style: solid;
 }
 
 #logo {
@@ -29,64 +27,59 @@ header {
 }	
 
 #nav {
-	background-color: #617B97;
+	background-color: #a3a375;
 	position: fixed;
 	width:100%;
 	top:0px;
 }
 
 #nav-wrapper {
-	width: 1300px;
+	width: 1200px;
 	margin: 0 auto;
 	position:relative;	
 }
 
-#nav-wrapper img {
-	width: 6%;
-	height: 6%;
-	float: left;
-	margin-left: 20px;
-	margin-top: 5px;
-}
-
 #nav ul {
-	background-color: #617B97;
-	height:50px;
+	background-color: #a3a375;
+	height:40px;
 	width:100%;
 	list-style: none;
-	text-align: right;
+	text-align: center;
 }
 
 #nav ul li{
-	padding-right: 2px;
-	padding-left: 2px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	margin-top: 14px;
-	margin-right: 10px;
+	padding-right: 42px;
+	padding-left: 42px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-top: 10px;
 }
 
+li+li { 
+	border-left: 1px solid #334d00; 
+	border-color: #c0c0c0;
+}
 
 #nav ul li a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Righteous', cursive;
 	font-weight: 100;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-decoration:none;
-	color: #ffffff;
-	font-size: 14px;
+	color:#ffffff;
+	font-size: 16px;
 	text-align: center;
 	display:inline;
 	text-transform: lowercase;
-	margin-right: 4em;
 }
 
-#main {
-	background-color: #343fd3;
+#main{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.2px;
-	line-height: 5em;
-	padding: 5em;
+	color: #000000;
+	line-height: 2em;
+	margin-right: 0em;
+	margin-left: 0em;	
 
 }
 
@@ -100,21 +93,18 @@ header {
 
 }
 
-
 .button {
 	text-decoration: none;
 	background-color: #bfbfbf;
     border: 0;
-    margin: 2em 0.5em;
     padding: 8px 10px;
     border-radius: 8px;
     font-size: 12px;
-    position: absolute;
 
 }
 
 .button:hover {
-	background-color: #e5b209;
+	background-color: #a3a375;
 
 }
 
@@ -122,88 +112,70 @@ h1 {
 	font-family: 'Righteous', cursive;
 	font-weight: 100;
 	color: #262626;
-	font-size: 22px;
+	font-size: 32px;
+	padding: 1em 1em 1em 0em;
 }
 
-.language {
-	border-style: solid;
-	background-color: #D8E4F1;
-	margin-top: 2em;
-	margin-left: 2em;
-	margin-right: 2em;
-	padding: 3em 5em 5em 3em;
-	float: left;
-	line-height: 1.5em;
-	font-size: 20px;
 
+.language{
+	background-color: #ffffff;
+	margin-top: 2em;
+	padding: 0em 6em 0em 6em;
+	float: left;
 }
 
 .food {
-	border-style: solid;
-	background-color: #D8E4F1;
+	background-color: #ffffff;
 	margin-top: 2em;
-	margin-left: 2em;
-	margin-right: 2em;
-	padding: 3em 5em 5em 3em;
+	padding: 0em 6em 0em 6em;
 	float: left;
-	line-height: 1.5em;
-	font-size: 20px;
+	
 }
 
 .music {
-	border-style: solid;
-	background-color: #D8E4F1;
+	background-color: #ffffff;
 	margin-top: 2em;
-	margin-left: 2em;
-	margin-right: 2em;
-	padding: 3em 5em 5em 3em;
+	padding: 0em 6em 0em 6em;
 	float: left;
-	line-height: 1.5em;
-	font-size: 20px;
 	
 }	
 
 .travel {
-	border-style: solid;
-	background-color: #D8E4F1;
+	background-color: #ffffff;
 	margin-top: 2em;
-	margin-left: 2em;
-	margin-right: 2em;
-	padding: 3em 5em 5em 3em;
+	padding: 0em 6em 0em 6em;
 	float: left;
-	line-height: 1.5em;
-	font-size: 20px;
-
-}
+}	
 
 .shop {
-	border-style: solid;
-	background-color: #D8E4F1;
+	background-color: #ffffff;
 	margin-top: 2em;
-	margin-left: 2em;
-	margin-right: 2em;
-	padding: 3em 5em 5em 3em;
+	padding: 0em 6em 0em 6em;
 	float: left;
-	line-height: 1.5em;
-	font-size: 20px;
 	
 }
 
-#footer ul{
-	background-color: #617B97;
-	position: bottom;
-	height: 10em;
-	display: inline-block;
+#foot {
+	background-color: #a3a375;
+	position: fixed bottom;
+	height: 80px;
 	width: 100%;
-	font-size: 20px;
-	text-decoration: none;
+	top: 0px;
+	position: absolute;
+	display: block;
+}
 	
-
+#contact ul li {
+	font-family: 'Righteous', cursive;
+	font-weight:100;
+	letter-spacing: 2px;
+	font-size: 16px;
+	text-align: center;
+	text-transform: lowercase;
+	background-repeat: no-repeat;
 }
 
-#logo {
-	position: center;
-	width: 6%;
-	height: 6%;
-	
+#contact ul li a {
+	text-decoration: none;
+	color: #ffffff;
 }
