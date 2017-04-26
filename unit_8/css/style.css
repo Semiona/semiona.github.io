@@ -155,6 +155,9 @@ header {
 #foot {
 	background-color: #a3a375;
 	text-align: center;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
 
 }
 
