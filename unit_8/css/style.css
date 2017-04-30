@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Satisfy|Trocchi');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Righteous|Satisfy|Trocchi');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Open+Sans|Righteous|Satisfy|Trocchi');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 * {
 	margin:0;
 	padding:0;
@@ -9,48 +10,104 @@
 }
 body {
 	color:#333;
-	font-family:'Open Sans', sans-serif;
-	line-height:1.3;
+	font-family:'Ubuntu', sans-serif;
+	line-height: 1.5;
 }
-#main {
-	max-width:600px;
-	margin: auto;
-}
-#main section {
-	padding:5em 0;
-}
+
 #intro {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:url("../images/forest.jpeg");
-	color: #fff;
+	background-image:url("../images/girl.jpeg");
+	color: #000;
 	height: 900px;
 	text-align: center;
-	padding: 10em 0 0;
+	padding: 14em 0 0;
+
 }
 header {
-	background:#a3a375;
+	background:#333;
+	height: 4.5em;
 }
+
 header img {
-	width: 15em;
+	width: 8em;
+	padding: 1em;
+	float: left;
 }	
+
 nav a {
-	font-family: 'Righteous', cursive;
-	font-weight: 100;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 10;
 	letter-spacing: 2px;
 	text-decoration:none;
 	color:#ffffff;
 	display:inline-block;
 	text-transform: lowercase;
-	padding:1em;
+	padding: 1.5em;
+	float: right;
 }
 
-#main{
+#about {
+	max-width: 100%;
+	text-align: center;
+	padding: 8em 9em 2em 9em;
 }
 
-#main a {
-	font-style: normal;
-	text-transform: uppercase;
+#main {
+	max-width: 100%;
+	text-align: center;
+	padding: 8em 9em 2em 9em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3em;
+	color:#333;
+}
+
+#two_column {
+	max-width: 90%;
+	padding: 0 0 0 10em;
+	position: center;
+}
+
+
+#two_column img {
+	margin: 0;
+	width: 100%;
+	padding: 2em; 
+
+}
+
+#two_column h2 {
+	text-align: center;
+	color: #333;
+
+}
+
+#two_column a{
+	text-decoration: none;
+	padding-top: 9em;
+	color: #333;
+
+}
+
+#two_column p {
+	text-align: center;
+	color: #333;
+}
+
+#left {
+    padding: 0;
+    float: left;
+    width: 50%;
+
+}
+
+#right {
+    padding: 0;
+    float: right;   
+    width: 50%;
 
 }
 
@@ -61,24 +118,50 @@ nav a {
 	padding: 1em 2em;
 	border-radius: 4px;
 	display: inline-block;
-	margin-top: 2em;
+	margin-top: 4em;
 }
 
 .button:hover {
-	background-color: #a3a375;
+	background-color: #333;
+	color: #fff;
 
 }
+
 p {
 	margin-top:1em;
+	font-size: 18px;
+
 }
-h2 {
-	font-family: 'Righteous', cursive;
-	font-weight: 100;
-	font-size: 2em;
-}
-footer {
-	background-color: #a3a375;
+
+h1 {
+	font-family:'Ubuntu', sans-serif;
+	background-color: #e0d1d1;
+	opacity: 0.5;
+	padding: 1em 1em 1em 1em;
+	width: 100%;
+	font-size: 4em;
+	color: #666;
 	text-align: center;
+	height: 3em;
+
+	
+}
+
+h2 {
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 100;
+}
+
+#gallery p {
+
+	max-width: 45%;
+	font-size: 18px;
+}
+
+footer {
+	background-color: #333;
+	text-align: center;
+	color: #fff;
 }
 
 
