@@ -17,11 +17,11 @@ body {
 #intro {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:url("../images/girl.jpeg");
+	background-image: url("../images/girl.jpeg");
 	color: #000;
 	height: 900px;
 	text-align: center;
-	padding: 14em 0 0;
+	padding: 8em;
 
 }
 header {
@@ -48,21 +48,25 @@ nav a {
 }
 
 #about {
-	max-width: 100%;
-	text-align: center;
-	padding: 8em 9em 2em 9em;
+	text-align: justify;
+	padding: 8em 14em 8em 14em;
 }
 
-#main {
-	max-width: 100%;
+#about h2 {
 	text-align: center;
-	padding: 8em 9em 2em 9em;
-	margin: 0;
+
+}
+
+#main section {
+	padding: 0em 14em 0em 14em;
+	margin-top: 3em;
+	text-align: justify;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
 	color:#333;
+	text-align: center;
 }
 
 #two_column {
@@ -75,7 +79,7 @@ h2 {
 #two_column img {
 	margin: 0;
 	width: 100%;
-	padding: 2em; 
+	padding: 1em; 
 
 }
 
@@ -118,7 +122,7 @@ h2 {
 	padding: 1em 2em;
 	border-radius: 4px;
 	display: inline-block;
-	margin-top: 4em;
+	margin-top: 3em;
 }
 
 .button:hover {
@@ -137,19 +141,23 @@ h1 {
 	font-family:'Ubuntu', sans-serif;
 	background-color: #e0d1d1;
 	opacity: 0.5;
-	padding: 1em 1em 1em 1em;
-	width: 100%;
-	font-size: 4em;
+	padding: 0.7em;
+	max-width: 40%;
+	font-size: 3em;
 	color: #666;
-	text-align: center;
-	height: 3em;
-
+	margin: 0 0 0 7em;
 	
+}
+
+h1 a{
+	text-decoration: none;
+	color: #333;
 }
 
 h2 {
 	font-family:'Ubuntu', sans-serif;
 	font-weight: 100;
+	margin-top: 1em;
 }
 
 #gallery p {
@@ -160,8 +168,8 @@ h2 {
 
 footer {
 	background-color: #333;
-	text-align: center;
 	color: #fff;
+	height: 10em;
+	text-align: center;
 }
-
 
