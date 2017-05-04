@@ -240,6 +240,8 @@ footer {
 
 	nav a {
 		display: block;
+		padding-right: 0;
+		margin: 0;
 	}
 
 }
