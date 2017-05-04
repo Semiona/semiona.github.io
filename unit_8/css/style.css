@@ -87,6 +87,7 @@ h2 {
 	font-size: 2em;
 	color:#333;
 	text-align: center;
+
 }
 
 #two_column {
@@ -241,7 +242,11 @@ footer {
 	nav a {
 		display: block;
 		padding-right: 0;
-		margin: 0;
+
+	}
+	#intro img {
+		width: 100%;
+		height: auto;
 	}
 
 }
