@@ -225,7 +225,9 @@ footer {
 
 .copy {
 	clear:both;
+
 }
+
 .clearfix:after {
 	display:block;
 	clear:both;
@@ -235,17 +237,15 @@ footer {
 	transform: translateY(-50%);
 }
 
-@media only screen and(max-width: 768px) {
+@media only screen and(max-width: 800px) {
 
-	h1,h2 {
-		text-align: center;
+	nav {
+		float: none;
 
 	}
 
 	nav a {
-		display: block;
-		padding-right: 0;
-
+		margin: 0;
 	}
 	#intro img {
 		width: 100%;
